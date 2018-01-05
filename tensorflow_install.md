@@ -39,7 +39,7 @@ chmod +x bazel-0.8.1-installer-linux-x86_64.sh
 ./bazel-0.8.1-installer-linux-x86_64.sh --user
 # Add $HOME/bin to PATH in ~./bashrc
 ```
-Ready to build. The build results in a `.whl` file which needs to be install with pip
+Ready to build. The build results in a `.whl` file which needs to be installed with pip
 
 ```
 cd ../tensorflow
@@ -49,7 +49,7 @@ bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 pip --proxy http://10.168.209.73:8012 install /tmp/tensorflow_pkg/tensorflow-1.4.0-cp27-cp27mu-linux_x86_64.whl
 ```
 
-Change to another directory (out of ../tensorflow) and create and test a simple tensorflow example to check the set-up.
+Change to another directory (out of `../tensorflow`) and create and test a simple tensorflow example to check the set-up.
 
 ```
 # tf.py
