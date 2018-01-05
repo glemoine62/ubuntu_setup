@@ -2,10 +2,11 @@
 
 Install cudnn from deb files, if not done so already, as follows:
 
-Download `libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb` from the [NVIDIA cuDNN site](https://developer.nvidia.com/cudnn "NVIDIA cuDNN"). You need to have an account for this (see site for details)
+Download `libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb` and `libcudnn7-dev_7.0.5.15-1+cuda9.0_amd64.deb` from the [NVIDIA cuDNN site](https://developer.nvidia.com/cudnn "NVIDIA cuDNN"). You need to have an account for this (see site for details)
 
 ```
-sudo apt-get install ./libcudnn7-doc_7.0.5.15-1+cuda9.0_amd64.deb
+sudo apt-get install ./libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb
+sudo apt-get install ./libcudnn7-dev_7.0.5.15-1+cuda9.0_amd64.deb
 sudo apt-get install libcupti-dev
 sudo apt-get install python-dev
 ```
